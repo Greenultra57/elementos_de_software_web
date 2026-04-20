@@ -1,0 +1,20 @@
+body {
+  background-color: #f3f4f5;
+}
+
+h1, h2, h3 {
+  font-family: Arial;
+  font-size: 24px;
+  color: black;
+}
+
+p {
+  font-family: Georgia;
+  font-size: 18px;
+  color: #757575;
+}
+
+ul {
+  column-count: 2;
+  column-gap: 40px;
+}
