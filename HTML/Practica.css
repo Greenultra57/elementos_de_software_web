@@ -1,0 +1,106 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: rgb(43, 240, 174);
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: chartreuse;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    background-color: #cc00ff;
+    padding: 10px;
+    text-align: center;
+    position: sticky;
+    top: 0; 
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #000000;
+}
+
+main {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 0;
+}
+
+section {
+    background-color: white;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+article {
+    border-left: 4px solid rgb(65, 81, 172);
+    padding-left: 15px;
+    margin-bottom: 20px;
+}
+
+aside {
+    background-color: #9c9797;
+    padding: 10px;
+    border-radius: 8px;
+    font-size: 0.9em;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid #525252;
+}
+
+th {
+    background-color: burlywood;
+    color: white;
+}
+
+footer {
+    background-color: #085ba8;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 50px;
+}
+
+.resaltado {
+    color: rgb(151, 252, 137);
+}
+
+.boton {
+    display: inline-block;
+    background-color: rebeccapurple;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.boton:hover {
+    background-color: rgb(240, 189, 122);
+}
+
+#mensaje-importante {
+    text-align: center;
+    font-size: 1.2em;
+}
